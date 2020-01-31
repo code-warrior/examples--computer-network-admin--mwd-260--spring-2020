@@ -1,0 +1,58 @@
+# View the commit hash, author, date, and comment.
+alias gl='git log'
+
+
+# View all of the above, plus a vertical line graph along the left.
+alias glg='git log --graph'
+
+
+# View the commit hash, author, date, comment, and file name.
+alias gln='git log --name-only'
+
+
+# View the commit hash, author, date, comment, and file name, along with a vertical
+# line graph along the left.
+alias glgn='git log --graph --name-only'
+
+
+# View the commit hash, author, date, comment, file name(s), and file difference.
+# Use the -N option to see a specific number of entries. For example, to see the
+# last two commits:
+#
+#    glp -2
+#
+alias glp='git log -p'
+
+
+# List only the full commit hash and its associated comment on a per-line basis.
+alias glpo='git log --pretty=oneline'
+
+
+# List vertical graph, first 7 chars in commit hash, and comment.
+alias glgod='git log --graph --oneline --decorate'
+
+
+# Show full commit message, author, date, comment, file modified.
+alias glns='git log --name-status'
+
+
+# View the commits carried out over the last X hours/minutes/days. For example, show
+# all the changes made in the last two weeks:
+#
+#    gls 2weeks
+#
+alias gls='git log --since'
+
+
+# Show the commits that modified a certain file, even if that file was renamed. For
+# example, show the changes made to the file “index.html”:
+#
+#   glpf index.html
+#
+# You can use the -N flag, where N represents a number, to show the last N amount of
+# changes to the file. For example, let’s look at the last two changes made to the
+# file “index.html”:
+#
+#   glpf -2 index.html
+#
+alias glpf='git log -p --follow'
