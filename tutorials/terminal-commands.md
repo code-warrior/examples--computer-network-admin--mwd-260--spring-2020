@@ -136,3 +136,12 @@ touch <FILE>
 ```
 
 ---
+
+## Alias
+Show items that have been aliases in your environment.
+
+```bash
+alias
+```
+
+---
