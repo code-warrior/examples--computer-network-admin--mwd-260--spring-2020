@@ -36,7 +36,7 @@ alias show_options='shopt'                     # Show_options: display bash opti
 alias sizeof='du -hs'
 alias vdir='vdir --color=auto'
 alias which='type -all'                        # which:        Find executables
-alias pbcopy='xclip -selection clipboard'      # xclip must be installed for this to work. Thus, first run `sudo apt-get install xclip -y`
+alias pbcopy='xclip -selection clipboard'      # First run `sudo apt-get install xclip -y`
 alias pbpaste='xclip -selection clipboard -o'
 
 mcd () { mkdir -p "$1" && cd "$1"; }           # mcd:          Makes new Dir and jumps inside
