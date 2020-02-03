@@ -145,3 +145,12 @@ alias
 ```
 
 ---
+
+## More
+View the contents of a file, and, if the file's contents are longer than the Terminal's screen, show a percentage in the lower left hand corner of how much of the file is being shown.
+
+```bash
+more <FILE>
+```
+
+---
