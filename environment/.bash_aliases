@@ -34,6 +34,7 @@ alias path='echo -e ${PATH//:/\\n}'            # path:         Echo all executab
 alias rm='rm -i'
 alias show_options='shopt'                     # Show_options: display bash options settings
 alias sizeof='du -hs'
+alias vdir='vdir --color=auto'
 alias which='type -all'                        # which:        Find executables
 alias pbcopy='xclip -selection clipboard'      # xclip must be installed for this to work. Thus, first run `sudo apt-get install xclip -y`
 alias pbpaste='xclip -selection clipboard -o'
