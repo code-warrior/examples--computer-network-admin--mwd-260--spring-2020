@@ -1,5 +1,5 @@
 # To run the default version of any command, use a backslash (\). For example, \rm
-# would bypass my alias of 'rm -i' on line 33.
+# would bypass my alias of 'rm -i' on line 36.
 
 # Sublime Text
 alias st='/snap/bin/subl'
