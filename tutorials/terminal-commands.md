@@ -154,3 +154,24 @@ more <FILE>
 ```
 
 ---
+
+## Move
+The `mv` command is used to move and rename files and folders.
+
+```bash
+mv <FILE_OR_FOLDER> <NEW_FILE_OR_FOLDER>
+```
+
+For example, rename `file.txt` with the new name `new-file.txt`:
+
+```bash
+mv file.txt new-file.txt
+```
+
+Or, move `folder` into its parent's parent:
+
+```bash
+mv folder ../
+```
+
+---
