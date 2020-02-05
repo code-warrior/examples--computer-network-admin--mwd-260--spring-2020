@@ -116,7 +116,7 @@ For example, if you want to know more about the `ls` command:
 man ls
 ```
 
-You can also read more about manuals:
+You can also read more about the manual command itself:
 ```bash
 man man
 ```
@@ -138,7 +138,7 @@ touch <FILE>
 ---
 
 ## Alias
-Show items that have been aliases in your environment.
+Show commands that have been aliased in your environment.
 
 ```bash
 alias
