@@ -175,3 +175,18 @@ mv folder ../
 ```
 
 ---
+
+## Copy
+Copies a file or folder.
+
+```bash
+cp <ORIGINAL_FILE> <COPY_OF_ORIGINAL_FILE>
+```
+
+To copy a folder, you need to follow the `cp` command with the `-r` flag/option in order to copy directories recursively:
+
+```bash
+cp -r <ORIGINAL_FOLDER> <COPY_OF_ORIGINAL_FOLDER>
+```
+
+---
