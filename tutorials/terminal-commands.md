@@ -203,3 +203,16 @@ halt
 ```
 
 ---
+
+## Remove
+```bash
+rm <FILE>
+
+Attempting to remove a non-empty folder will thrown an error. Thus, the `-r` option is required. If you want to remove a non-empty folder and over-ride the `-i` option, you'll need to combine the `r` (rooted file hierarchy) and `f` (force) flags.
+
+```bash
+rm -fr <NON_EMPTY_FOLDER>
+```
+**Note**: The `rm` command permanently removes a file; there is no intermediary trash can deletion, as is the case with Windows and macOS.
+
+```
