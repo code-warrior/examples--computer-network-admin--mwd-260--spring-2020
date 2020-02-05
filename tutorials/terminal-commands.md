@@ -190,3 +190,16 @@ cp -r <ORIGINAL_FOLDER> <COPY_OF_ORIGINAL_FOLDER>
 ```
 
 ---
+
+## Shutdown
+```bash
+shutdown
+```
+
+Or, to stop the system without shutting off, use
+
+```bash
+halt
+```
+
+---
