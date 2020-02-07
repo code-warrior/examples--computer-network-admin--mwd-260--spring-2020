@@ -32,6 +32,20 @@ git branch <NAME_OF_NEW_BRANCH>
 
 ---
 
+## Set an Upstream Branch for the New Branch
+
+```bash
+git push origin --set-upstream <NAME_OF_NEW_BRANCH>
+```
+
+or
+
+```bash
+git push origin -u <NAME_OF_NEW_BRANCH>
+```
+
+---
+
 ## Switch Into a Branch
 
 ```bash
