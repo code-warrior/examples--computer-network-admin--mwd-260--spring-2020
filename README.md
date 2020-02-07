@@ -13,7 +13,7 @@ In class, the workflow requires three tools: GitHub Desktop, Atom (or another te
 ---
 
 ## Environment
-Move or copy every dot file in `environment` to your home folder.
+Move or copy every dot file in the `environment` directory to your home folder.
 
 ---
 
