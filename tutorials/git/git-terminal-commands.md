@@ -62,6 +62,14 @@ git checkout -b <NAME_OF_NEW_BRANCH>
 
 ---
 
+## Check Tracking on Branches
+
+```bash
+git branch -vv
+```
+
+---
+
 ## Delete a Local Branch
 
 ```bash
