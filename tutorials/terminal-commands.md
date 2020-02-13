@@ -123,6 +123,17 @@ man man
 
 ---
 
+## Search the Manuals
+Using the `-k` option, you can search the short descriptions and manual page names for the keyword as regular expression.
+
+```bash
+man -k <KEYWORD>
+```
+
+For example, `man -k echo` searches for "echo" in short descriptions and page names.
+
+---
+
 ## Locate a Command
 ```bash
 which <COMMAND>
