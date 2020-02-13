@@ -130,7 +130,7 @@ Using the `-k` option, you can search the short descriptions and manual page nam
 man -k <KEYWORD>
 ```
 
-For example, `man -k echo` searches for "echo" in short descriptions and page names.
+For example, `man -k echo` searches for “echo” in short descriptions and page names.
 
 ---
 
@@ -158,7 +158,7 @@ alias
 ---
 
 ## More
-View the contents of a file, and, if the file's contents are longer than the Terminal's screen, show a percentage in the lower left hand corner of how much of the file is being shown.
+View the contents of a file, and, if the file’s contents are longer than the Terminal’s screen, show a percentage in the lower left hand corner of how much of the file is being shown.
 
 ```bash
 more <FILE>
@@ -179,7 +179,7 @@ For example, rename `file.txt` with the new name `new-file.txt`:
 mv file.txt new-file.txt
 ```
 
-Or, move `folder` into its parent's parent:
+Or, move `folder` into its parent’s parent:
 
 ```bash
 mv folder ../
@@ -219,7 +219,7 @@ halt
 ```bash
 rm <FILE>
 
-Attempting to remove a non-empty folder will thrown an error. Thus, the `-r` option is required. If you want to remove a non-empty folder and over-ride the `-i` option, you'll need to combine the `r` (rooted file hierarchy) and `f` (force) flags.
+Attempting to remove a non-empty folder will thrown an error. Thus, the `-r` option is required. If you want to remove a non-empty folder and over-ride the `-i` option, you’ll need to combine the `r` (rooted file hierarchy) and `f` (force) flags.
 
 ```bash
 rm -fr <NON_EMPTY_FOLDER>
