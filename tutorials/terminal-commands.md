@@ -226,4 +226,11 @@ rm -fr <NON_EMPTY_FOLDER>
 ```
 **Note**: The `rm` command permanently removes a file; there is no intermediary trash can deletion, as is the case with Windows and macOS.
 
+---
+
+## Print the Working Directory
+```bash
+pwd
 ```
+
+---
