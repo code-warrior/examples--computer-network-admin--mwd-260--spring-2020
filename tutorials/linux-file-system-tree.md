@@ -1,5 +1,7 @@
 # The Linux Filesystem Tree via the Filesystem Hierarchy Standard, or FHS
 
+Read more [here](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
+
 ## The Root (`/`) Directory
 
 * It’s a unique partition and filesystem.
