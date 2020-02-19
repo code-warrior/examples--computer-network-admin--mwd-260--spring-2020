@@ -11,3 +11,14 @@
 * No app or package should create new subdirectories of the root directory.
 
 ---
+
+## `/bin`
+
+* Contains executables and scripts required by system administrators.
+* `/bin` must also be accessible in single user and recovery modes.
+* May not include subdirectories.
+* There are about 30 essential programs that must exist in `/bin`, such as `rm`, `cp`, `mkdir`, and `tar`, to name a few.
+* Less important programs are placed in `/usr/bin`.
+* Programs required strictly by non-root users also go in `/usr/bin`.
+
+---
