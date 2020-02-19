@@ -25,7 +25,7 @@
 
 ## `/dev` (for devices)
 
-* Contains special device files (AKA device nodes) that represent devices built into or connected to the system.
+* Contains special device files (AKA device nodes) that represent devices built into or connected to the system, such as a connected keyboard/mouse via USB.
 * Such device files represent character (byte-stream) and block I/O devices.
 * Network devices stream via `eth1` or `wlan0`, for example.
 * All modern Linux distributions, or distros, create nodes in `/dev` as needed.
