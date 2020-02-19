@@ -31,3 +31,14 @@
 * All modern Linux distributions, or distros, create nodes in `/dev` as needed.
 
 ---
+
+## `/proc` (for process)
+
+* Mounts a pseudo-filesystem in which all data exist *only* in memory, not on disk.
+* Similar to `/dev`, `/proc` is empty on a non-running system.
+* Each active process has its own subdirectory that provides detailed information about the state of the process, including the resources it’s using, and its history.
+* Items in `/proc` are referred to as virtual files.
+* Many are listed as `0` in size, but, in reality, are very large.
+* `/proc/filesystems` and `/proc/sys/` provide system configuration information.
+
+---
