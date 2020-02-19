@@ -42,3 +42,11 @@
 * `/proc/filesystems` and `/proc/sys/` provide system configuration information.
 
 ---
+
+## `/tmp`
+* Stores temporary files.
+* Available to all users and applications.
+* Do not depend on files stored in `/tmp`, as they can be purged by a user or via a chron job.
+* Some Linux distros use `/tmp` as a simple mount point that loads its contents in RAM. Thus, large files can harm the system through RAM exhaustion.
+
+---
