@@ -50,3 +50,19 @@
 * Some Linux distros use `/tmp` as a simple mount point that loads its contents in RAM. Thus, large files can harm the system through RAM exhaustion.
 
 ---
+
+## `/boot`
+
+### `vmlinuz` (Virtual Machine Linux Zipped)
+The compressed Linux kernel
+
+### `initramfs` (Initial RAM File System)
+* The initial RAM filesystem, which is mounted before the real root filesystem becomes available.
+* Sometimes called `initrd` for “initial ram disk”. This is older.
+* Stores data used before the kernel begins executing user-mode programs.
+* The following two files are used for info and debugging:
+   1. `config` (Used to configure the kernel compilation)
+   2. `System.map` (Kernel symbol table, used for debugging)
+* In older UNIX machines, all these files appeared in `/`.
+
+---
