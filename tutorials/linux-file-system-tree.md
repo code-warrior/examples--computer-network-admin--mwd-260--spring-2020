@@ -43,7 +43,8 @@
 
 ---
 
-## `/tmp`
+## `/tmp` (for temporary)
+
 * Stores temporary files.
 * Available to all users and applications.
 * Do not depend on files stored in `/tmp`, as they can be purged by a user or via a chron job.
@@ -67,7 +68,8 @@ The compressed Linux kernel
 
 ---
 
-## `/mnt`
+## `/mnt` (for mount)
+
 * This directory is provided so that the system administrator can temporarily mount a filesystem when needed.
 * It’s commonly used for network filesystems, including:
    + NFS (Sun’s Network File System)
@@ -76,5 +78,12 @@ The compressed Linux kernel
    + AFS (Andrew File System from Carnegie Mellon)
 * `/mnt` was the original mount point for media, which are now mounted under `/media` or `/run/media`.
 * `/mnt` is temporary, and thus, should not be used by installation programs. Use `/tmp` or another temporary directory not currently being used.
+
+---
+
+## `/root` (pronounced “slash-root”)
+
+* Home directory for the root user.
+* The root account associated with this directory should *only* be used for actions that require superuser privilege.
 
 ---
