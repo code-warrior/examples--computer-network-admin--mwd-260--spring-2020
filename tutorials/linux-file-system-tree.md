@@ -12,7 +12,7 @@
 
 ---
 
-## `/bin`
+## `/bin` (for binaries)
 
 * Contains executables and scripts required by system administrators.
 * `/bin` must also be accessible in single user and recovery modes.
