@@ -1,4 +1,4 @@
-# The Linux Filesystem Tree
+# The Linux Filesystem Tree via the Filesystem Hierarchy Standard, or FHS
 
 ## The Root (`/`) Directory
 
