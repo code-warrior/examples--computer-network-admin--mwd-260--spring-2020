@@ -66,3 +66,15 @@ The compressed Linux kernel
 * In older UNIX machines, all these files appeared in `/`.
 
 ---
+
+## `/mnt`
+* This directory is provided so that the system administrator can temporarily mount a filesystem when needed.
+* It’s commonly used for network filesystems, including:
+   + NFS (Sun’s Network File System)
+   + Samba (Windows interoperability suite of programs for Linux and Unix)
+   + CIFS (Common Internet File System)
+   + AFS (Andrew File System from Carnegie Mellon)
+* `/mnt` was the original mount point for media, which are now mounted under `/media` or `/run/media`.
+* `/mnt` is temporary, and thus, should not be used by installation programs. Use `/tmp` or another temporary directory not currently being used.
+
+---
