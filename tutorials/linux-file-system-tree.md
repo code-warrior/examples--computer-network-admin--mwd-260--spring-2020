@@ -22,3 +22,12 @@
 * Programs required strictly by non-root users also go in `/usr/bin`.
 
 ---
+
+## `/dev` (for devices)
+
+* Contains special device files (AKA device nodes) that represent devices built into or connected to the system.
+* Such device files represent character (byte-stream) and block I/O devices.
+* Network devices stream via `eth1` or `wlan0`, for example.
+* All modern Linux distributions, or distros, create nodes in `/dev` as needed.
+
+---
