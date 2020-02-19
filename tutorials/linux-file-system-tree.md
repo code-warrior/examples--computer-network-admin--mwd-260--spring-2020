@@ -87,3 +87,13 @@ The compressed Linux kernel
 * The root account associated with this directory should *only* be used for actions that require superuser privilege.
 
 ---
+
+## `/media`
+
+* Loads removable media, such as CDs, DVDs, and USB drives.
+* Linux systems mount such media dynamically upon insertion, and `udev` (the dynamic device manager) creates directories and then mounts the removable filesystems there.
+* Upon unmounting and removal, the directories used as mount points disappear.
+* If the media has more than one partition and filesystem, more than one entry will appear.
+* On many Linux distros, the file manager (such as Nautilus) will pop up when the media is mounted.
+
+---
