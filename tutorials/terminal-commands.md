@@ -188,7 +188,7 @@ mv folder ../
 ---
 
 ## Copy
-Copies a file or folder.
+The `mv` command copies a file or folder.
 
 ```bash
 cp <ORIGINAL_FILE> <COPY_OF_ORIGINAL_FILE>
