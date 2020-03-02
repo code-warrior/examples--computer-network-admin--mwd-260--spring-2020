@@ -99,3 +99,25 @@ The compressed Linux kernel
 * On many Linux distros, the file manager (such as Nautilus) will pop up when the media is mounted.
 
 ---
+
+## `/var`
+
+* Contains variable/volatile data files that change often during system operation. For example,
+   + Access logs
+   * System logs
+   * Printer logs
+
+### Some Subdirectories Under `/var` \*
+| Item         |: Points                                                                            |
+|--------------|:-----------------------------------------------------------------------------------|
+| `/var/ftp`   | Used for ftp server base                                                           |
+| `/var/log`   | Log files                                                                          |
+| `/var/mail`  | User mailboxes                                                                     |
+| `/var/run`   | Information about the running system since the last boot                           |
+| `/var/spool` | Tasks spooled or waiting to be processed, such as print queues                     |
+| `/var/tmp`   | Temporary files to be preserved across system reboot. Sometimes linked to `/tmp`   |
+| `/var/www`   | Root for website hierarchies                                                       |
+
+\* Essential of Linux System Administration
+
+---
