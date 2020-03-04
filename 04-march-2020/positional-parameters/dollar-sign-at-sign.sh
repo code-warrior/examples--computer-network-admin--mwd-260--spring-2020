@@ -5,7 +5,7 @@
 
 # If the first argument is null (that is, a length of 0),...
 if [ -z "$1" ]; then
-    echo "No arguments were entered into the command line."
+    echo "No arguments were entered at the command line."
 else
     echo "$@"
 fi
