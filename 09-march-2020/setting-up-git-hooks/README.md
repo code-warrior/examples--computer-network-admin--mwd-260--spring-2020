@@ -7,6 +7,8 @@ This tells Git to copy everything in `~/.git-templates` to your per-project `.gi
 git config --global init.templatedir '~/.git-templates'
 ```
 
+**Note**: You can name your template directory (`.git-templates`) anything you want.
+
 ---
 
 ## (2) Create a Directory to Hold Your Global Hooks
