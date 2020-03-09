@@ -34,3 +34,5 @@ git init
 ```
 
 ---
+
+**Note**: You may want to place `.git-templates` folder under Git control.
