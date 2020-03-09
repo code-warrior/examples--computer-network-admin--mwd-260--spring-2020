@@ -1,5 +1,14 @@
 # Setting Up Git Hooks
 
+## (3) Enable Git Templates
+This tells Git to copy everything in `~/.git-templates` to your per-project `.git/hooks` directory when you run `git init`.
+
+```bash
+git config --global init.templatedir '~/.git-templates'
+```
+
+---
+
 ## (1) Create a Directory to Hold Your Global Hooks
 ```bash
 mkdir -p ~/$(git config --global init.templatedir | cut -b 3-16)/hooks
@@ -10,15 +19,6 @@ mkdir -p ~/$(git config --global init.templatedir | cut -b 3-16)/hooks
 ## (2) Make All Your Hooks Executable
 ```bash
 chmod a+x ~/.git-templates/hooks/*
-```
-
----
-
-## (3) Enable Git Templates
-This tells Git to copy everything in `~/.git-templates` to your per-project `.git/` directory when you run `git init`
-
-```bash
-git config --global init.templatedir '~/.git-templates'
 ```
 
 ---
