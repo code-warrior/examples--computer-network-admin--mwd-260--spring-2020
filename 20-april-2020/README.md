@@ -44,3 +44,11 @@ Asterisk indicates don’t care situation
 Asterisk indicates don’t care situation
 
 ---
+
+## Seeing Latest Logged In Users
+
+`last`
+
+`lastb`
+
+---
